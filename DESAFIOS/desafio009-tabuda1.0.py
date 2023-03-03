@@ -1,0 +1,17 @@
+from cores import textovermelho,textamarelo,textoazul,textociano,textoverde,fecha,fundoAzul
+
+num = int(input('Digite um numero : '))
+print('='*5,end='')
+print(f'{textovermelho}TABUADA{fecha}',end='')
+print('='*5)
+print(f'{textoazul}{num} X 1 =  {textovermelho}{num*1:2} {fecha}')
+print(f'{textoazul}{num} x 2  = {textovermelho}{num*2:2}{fecha}')
+print(f'{textoazul}{num} X 3  = {textovermelho}{num*3:2}{fecha}')
+print(f'{textoazul}{num} X 4  = {textovermelho}{num*4:2}{fecha}')
+print(f'{textoazul}{num} X 5  = {textovermelho}{num*5:2}{fecha}')
+print(f'{textoazul}{num} X 6  = {textovermelho}{num*6:2}{fecha}')
+print(f'{textoazul}{num} x 7  = {textovermelho}{num*7:2}{fecha}')
+print(f'{textoazul}{num} X 8  = {textovermelho}{num*8:2}{fecha}')
+print(f'{textoazul}{num} X 9  = {textovermelho}{num*9:2}{fecha}')
+print(f'{textoazul}{num} X 10 = {textovermelho}{num*10}{fecha}')
+print(f'{textoverde}={fecha}'*12)
